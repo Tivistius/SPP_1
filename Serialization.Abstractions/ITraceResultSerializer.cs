@@ -12,6 +12,7 @@ namespace Tracer.Serialization.Abstractions
     {
         string Format { get; }
         void Serialize(IReadOnlyTraceResult traceResult, Stream to);
+
     }
 
 }
